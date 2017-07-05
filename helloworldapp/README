@@ -1,0 +1,5 @@
+npm install		   
+node helloWorld.js  		------ if Environment variable MOCK_PORT=8531 is set
+node helloWorld.js 8546
+npm run start-port
+npm start					------ if Environment variable MOCK_PORT=8531 is set
