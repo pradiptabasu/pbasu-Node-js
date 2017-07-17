@@ -4,8 +4,9 @@
   "description": "this will send a hello world greetings",
   "main": "helloWorld.js",
   "scripts": {
-	"start": "node helloWorld.js 8546",
-    "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node helloWorld.js",
+        "start-port": "node helloWorld.js 8546",
+        "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "hello",
