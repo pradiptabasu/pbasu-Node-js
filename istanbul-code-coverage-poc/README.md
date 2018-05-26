@@ -13,12 +13,12 @@ npm run coverageTest1
 
 _coverageTest and coverageTest1 are custome npm scripts and hence had to include the keyword run in command_
 
-##Below are the commands to run the instanbul and mocha tests    
-node_modules\.bin\_mocha test -R spec  
-node_modules\.bin\istanbul cover --include-all-sources --root ./src node_modules\mocha\bin\_mocha .\test -- -R spec
-node_modules\.bin\istanbul cover --include-all-sources --root ./src -x "sample-offerings" node_modules\mocha\bin\_mocha .\test -- -R spec
+##Below are the commands to run the instanbul and mocha tests      
+node_modules\.bin\_mocha test -R spec    
+node_modules\.bin\istanbul cover --include-all-sources --root ./src node_modules\mocha\bin\_mocha .\test -- -R spec  
+node_modules\.bin\istanbul cover --include-all-sources --root ./src -x "sample-offerings" node_modules\mocha\bin\_mocha .\test -- -R spec  
 
---include-all-sources --root ./src -x "sample-offerings"
-  --include-all-sources      Includes all files for coverage check including those not "require" in test suite
-  --root ./src               this instructs src folder as starting point of --include-all-sources and in effect does not include other folders which are not src or children of src
-  -x "sample-offerings"      this instructs in exclude "sample-offerings" folder. this folder is not present in this project. this folder is part of FCE project. And this whole command will work for FCE
+--include-all-sources --root ./src -x "sample-offerings"    
+  --include-all-sources      Includes all files for coverage check including those not "require" in test suite  
+  --root ./src               this instructs src folder as starting point of --include-all-sources and in effect does not include other folders which are not src or children of src  
+  -x "sample-offerings"      this instructs in exclude "sample-offerings" folder. this folder is not present in this project. this folder is part of FCE project. And this whole command will work for FCE  
