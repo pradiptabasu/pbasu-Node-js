@@ -1,0 +1,24 @@
+{
+  "name": "istanbul-code-coverage-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test",
+    "src": "src"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "coverageTest":"node_modules\\.bin\\istanbul --include-all-sources cover node_modules\\mocha\\bin\\_mocha test -R spec",
+    "coverageTest1":"istanbul --include-all-sources cover node_modules\\mocha\\bin\\_mocha test -R spec",
+    "start": "node src\\index.js"
+  },
+  "author": "Pradipta Basu",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "jshint": "^2.9.5",
+    "mocha": "^5.2.0"
+  }
+}
