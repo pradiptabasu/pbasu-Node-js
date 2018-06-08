@@ -27,8 +27,8 @@ function postCall() {
     var RequestPost = unirest.post("http://httpbin.org/post")
         .set('Content-Type', "")
         .send("");
-        RequestPost.strictSSL(false);
-        RequestPost.end(function (response) {
+    RequestPost.strictSSL(false);
+    RequestPost.end(function (response) {
         console.log("in post response");
         if (response.statusCode === 200) {
             console.log("in success");
@@ -43,3 +43,41 @@ function postCall() {
 
 getCall();
 postCall();
+
+
+this._get = function (getUrl, done) {
+    var Request = unirest.get(getUrl);
+    Request.strictSSL(false)
+    Request.end(function (response) {
+        if (response.statusCode === 200) {
+            done(null, {
+                result: response.body,
+                statusCode: response.statusCode
+            })
+        } else {
+            done(null, {
+                result: response.body,
+                statusCode: response.statusCode,
+                "errorName": "SIGMA_CS_Error",
+                "errorMessage": response.statusMessage
+            })
+        }
+    }).on('error', function (e) {
+        done(new Error("REST Call error: " + e.message))
+    })
+}
+
+
+var fn = Q.denodeify(this._get)
+var testGetUrl = "https://www.google.com/"
+fn(testGetUrl).then(function (data) {
+    var response = data.result;
+    console.log("Result: " + response)
+    console.log("StatusCode: " + data.statusCode)
+
+    if (data.statusCode === 200) {
+        //    process.exit(0);
+    } else {
+        process.exit(data.statusCode);
+    }
+})
