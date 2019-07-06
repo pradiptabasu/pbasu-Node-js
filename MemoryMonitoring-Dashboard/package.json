@@ -1,0 +1,10 @@
+{
+  "name": "heapleak",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "latest"
+  },
+  "devDependencies": {
+    "memeye": "^1.0.3"
+  }
+}

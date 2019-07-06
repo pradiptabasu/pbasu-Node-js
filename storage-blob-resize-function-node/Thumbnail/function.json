@@ -1,0 +1,18 @@
+{
+  "disabled": false,
+  "bindings": [
+      {
+      "type": "eventGridTrigger",
+      "name": "myEvent",
+      "direction": "in"
+    },
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "images/{name}",
+      "connection": "AzureWebJobsStorage",
+      "datatype": "binary"
+    }
+  ]
+}
