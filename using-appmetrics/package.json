@@ -1,9 +1,16 @@
 {
-  "name": "heapleak",
+  "name": "using-appmetrics",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "appmetrics": "^4.0.1",
-    "express": "^4.16.4",
+    "appmetrics": "^5.0.3",
+    "express": "^4.17.1",
     "http": "0.0.0"
   }
 }

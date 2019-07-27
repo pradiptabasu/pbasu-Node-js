@@ -1,0 +1,9 @@
+{
+  "name": "heapleak",
+  "version": "1.0.0",
+  "dependencies": {
+    "appmetrics": "^4.0.1",
+    "express": "^4.16.4",
+    "http": "0.0.0"
+  }
+}
