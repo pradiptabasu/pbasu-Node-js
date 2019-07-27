@@ -21,6 +21,10 @@
 * https://blog.codeship.com/understanding-garbage-collection-in-node-js/
 * https://flaviocopes.com/node-runtime-v8-options/
 * https://medium.com/the-node-js-collection/easily-identify-problems-in-node-js-applications-with-diagnostic-report-dc82370d8029
+* https://www.influxdata.com/blog/instrumenting-your-node-express-application/
+* https://dzone.com/articles/instrumenting-your-nodeexpress-application
+* https://entwickler.de/online/javascript/appmetrics-579807694.html
+* https://docs.pivotal.io/pivotalcf/2-5/buildpacks/node/index.html
 
 # Node.js Node-gyp install issues
 * https://www.npmjs.com/package/windows-build-tools
