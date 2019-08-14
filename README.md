@@ -443,3 +443,25 @@ You can increase the maximum file size by modify the maxAllowedContentLength set
 * 
 * 
 *
+
+
+
+# GraphQL & Apollo
+https://blog.apollographql.com/introducing-the-apollo-graphql-platform-8ef34bb269e5
+https://www.youtube.com/watch?v=8D9XnnjFGMs
+https://blog.apollographql.com/layering-graphql-on-top-of-rest-569c915083ad
+https://blog.apollographql.com/the-graphql-stack-how-everything-fits-together-35f8bf34f841
+https://medium.com/@wtr/selecting-database-as-data-source-for-graphql-server-e3281fcefb2
+https://www.apollographql.com/docs/apollo-server/features/data-sources/
+https://ranjithnair.github.io/2018/11/28/Graphql-Datasource.html
+https://www.robinwieruch.de/why-graphql-advantages-disadvantages-alternatives/
+https://www.robinwieruch.de/why-apollo-advantages-disadvantages-alternatives/
+https://medium.com/airbnb-engineering/how-airbnb-is-moving-10x-faster-at-scale-with-graphql-and-apollo-aa4ec92d69e2
+https://www.prisma.io/blog/how-to-wrap-a-rest-api-with-graphql-8bf3fb17547d
+https://graphql.org/blog/rest-api-graphql-wrapper/
+https://www.contentful.com/blog/2019/03/13/implementing-graphql-rest-api/
+https://medium.com/@dadc/using-graphql-client-with-rest-api-9c332e5c8eb3
+
+
+
+
