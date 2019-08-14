@@ -465,3 +465,58 @@ https://medium.com/@dadc/using-graphql-client-with-rest-api-9c332e5c8eb3
 
 
 
+
+# Seeding Data in Node.js
+https://www.jernejsila.com/2016/09/04/creating-database-migrations-seeds-node-js/
+https://scotch.io/courses/create-a-crud-app-with-node-and-mongodb/seeding-database
+https://www.npmjs.com/package/mongoose-data-seed
+https://www.youtube.com/watch?v=V30Rpqi6kYE
+https://www.youtube.com/watch?v=4yqu8YF29cU
+https://blog.bitsrc.io/seeding-your-database-with-thousands-of-users-using-knex-js-and-faker-js-6009a2e5ffbf
+http://www.jonxie.com/blog/2014/10/12/how-to-seed-mongodb-with-node-dot-js-from-command-line/
+https://teamtreehouse.com/library/creating-seed-data
+https://medium.com/@jaeger.rob/seed-knex-postgresql-database-with-json-data-3677c6e7c9bc
+https://gist.github.com/vapurrmaid/a111bf3fc0224751cb2f76532aac2465
+https://www.npmjs.com/package/mongoose-data-seed
+https://www.npmjs.com/package/mongoose-seed
+https://github.com/sharvit/mongoose-data-seed
+https://github.com/lykmapipo/seed-mongoose
+https://medium.com/@pkosiec/seeding-mongodb-database-the-right-way-32a8a0e75490
+https://www.robinwieruch.de/mongodb-express-setup-tutorial/
+https://webapplog.com/express-js-and-mongoose-example-building-hackhall/
+https://loopback.io/doc/en/lb2/Defining-boot-scripts.html
+https://hackernoon.com/testing-node-js-in-2018-10a04dd77391
+https://www.alibabacloud.com/blog/building-a-restful-api-with-express-postgresql-and-node-using-es6_594137
+https://stackabuse.com/using-sequelize-js-and-sqlite-in-an-express-js-app/
+
+
+
+
+https://medium.com/wolox-driving-innovation/nodejs-api-bootstrap-b598a2591a3b
+
+https://medium.com/@bhanushali.mahesh3/creating-a-simple-website-with-node-js-express-and-ejs-view-engine-856382a4578f
+
+https://stormpath.com/blog/build-nodejs-express-stormpath-app
+
+https://causeyourestuck.io/2016/04/30/run-node-js-script-startup/
+
+https://weworkweplay.com/play/raspberry-pi-nodejs/
+
+
+
+
+
+LoopBack ---- loopback.io
+https://loopback.io/
+https://www.npmjs.com/package/loopback
+https://loopback.io/doc/en/lb2/Defining-boot-scripts.html
+https://www.toptal.com/nodejs/let-loopback-do-it-a-walkthrough-of-the-node-api-framework-you-ve-been-dreaming-of
+https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-loopback
+https://www.prolifics.com/blog/getting-started-nodejs-loopback-framework-part-1
+https://github.com/strongloop/loopback
+https://medium.com/@pablo_ezequiel/loopback-with-node-js-and-mongodb-9250a240fbb6
+https://www.youtube.com/watch?v=UTxhKZuVaG8
+https://www.youtube.com/watch?v=Llr18lNuYIo
+
+
+
