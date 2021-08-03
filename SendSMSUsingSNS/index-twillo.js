@@ -1,6 +1,6 @@
 var Alexa = require('alexa-sdk');
 var APP_ID = 'amzn1.ask.skill.177d2574-9f57-45c1-b85a-b98fc871f581';
-var APP_NAME = 'Mphasis Sprint Demo';
+var APP_NAME = 'Demo';
 var Q = require('q');
 
 exports.handler = (event, context) => {
