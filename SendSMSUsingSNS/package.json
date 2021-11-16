@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "Q": "^1.0.0",
-    "aws-sdk": "^2.302.0",
+    "aws-sdk": "^2.814.0",
     "jshint": "^2.9.6",
     "q": "^1.5.1",
     "twilio": "^3.19.2"
