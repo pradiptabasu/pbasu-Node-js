@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "async": "^2.0.0-rc.2",
-    "mocha": "^2.4.5",
+    "mocha": "^10.1.0",
     "request": "^2.69.0"
   }
 }
